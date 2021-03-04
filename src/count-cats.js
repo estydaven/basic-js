@@ -5,7 +5,7 @@ module.exports = function countCats(matrix) {
 
     for (let elem of matrix){
         for (let subElem of elem){
-            if (elem === '^^'){
+            if (subElem === '^^'){
                 result++;
             }
         }
